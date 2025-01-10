@@ -1,0 +1,33 @@
+<!DOCTYPE htlm>
+<html>
+<head>
+<title>js03_soma.htm - somatoria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; chraset=utf-8">
+<meta charset="utf-8"/>
+</head>
+
+<body>
+<h3>Somatória de dois números inteiros</h3>
+<script language="JavaScript">
+/* Objetivo: desenvolver um programa que faça a Leitura de 2 números inteiros e apresente o resultado da soma entre eles.
+
+/* Definição das variáveis */
+var js_n1;
+var js_n2;
+var js_soma;
+
+function soma() {
+
+	js_n1 = parseInt(document.MeuFormulario.f_n1.value);
+	js_n2 = parseInt(document.MeuFormulario.f_n2.value);
+
+	js_soma = js_n1 + js_n2;
+	window.alert('Resultado da somatória= ' + js_soma.tostring());
+}
+
+
+
+</script>
+</body>
+</html>
